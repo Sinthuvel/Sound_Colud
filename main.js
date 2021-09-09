@@ -4,6 +4,7 @@ SC.initialize({
 
 $(document).ready(function(){
 
+
   // jQuery methods go here...
     SC.stream('/tracks/278148856',function(sound){
 
@@ -19,6 +20,4 @@ $(document).ready(function(){
                 });
 
       });
-
-
 });

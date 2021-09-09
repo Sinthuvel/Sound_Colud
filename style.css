@@ -1,26 +1,33 @@
+body{
+  background-image:url("https://st3.depositphotos.com/3442145/32376/i/600/depositphotos_323761322-stock-photo-deep-space-cosmic-clouds-stars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #design{
   background-color: #d1d1e0;
-  width:600px;
-  height:420px;
+  width:900px;
+  height:800px;
   margin: 50px;
   margin-left: 250px;
+  border-radius: 25px;
 }
+
 .button1{
-  background-color:#1a53ff;
+  background-color:#00b300;
   border-radius: 10px;
-  width:80px;
+  width:100px;
   height: 30px;
   font-size: 20px;
-  color:black;
+  color:white;
   margin: 5px;
 }
  .button2{
-   background-color: #ff4d4d;
+   background-color:#ff5c33;
    border-radius: 10px;
-   width:80px;
+   width:100px;
    height: 30px;
    font-size: 20px;
-   color: black;
+   color: white;
    margin: 5px;
  }
 
@@ -39,7 +46,9 @@ a:link {
 }
 h2{
   text-align: center;
-  margin: 5px;
+  padding-top:20px;
+  font-size: 50px;
+  color:#a3297a;
 }
 .i1{
   width: 10px;
@@ -52,5 +61,10 @@ h4{
   margin-left:10px;
 }
 h5{
+  margin-left:10px;
+}
+img{
+  width:300px;
+  height:150px;
   margin-left:10px;
 }
