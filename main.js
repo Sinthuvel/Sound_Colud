@@ -28,13 +28,13 @@ $(document).ready(function(){
   // jQuery methods go here...
     SC.stream('/tracks/693696028',function(sound){
 
-      $('#play').click(function(e) {
+      $('#start').click(function(e) {
            e.preventDefault();
            sound.play();
          });
 
 
-         $('#push').click(function(e) {
+         $('#stop').click(function(e) {
                   e.preventDefault();
                   sound.push();
                 });
