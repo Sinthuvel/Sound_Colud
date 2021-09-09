@@ -21,6 +21,7 @@
    height: 30px;
    font-size: 20px;
    color: black;
+   margin: 5px;
  }
 
 .button1:hover{
@@ -46,4 +47,10 @@ h2{
   opacity: 0.5;
   color:pink;
   padding-right:3px;
+}
+h4{
+  margin-left:10px;
+}
+h5{
+  margin-left:10px;
 }
