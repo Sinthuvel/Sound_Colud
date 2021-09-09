@@ -5,7 +5,7 @@ SC.initialize({
 $(document).ready(function(){
 
   // jQuery methods go here...
-    SC.stream('/tracks/278148856',function(sound){ 
+    SC.stream('/tracks/278148856',function(sound){
 
       $('#start').click(function(e) {
            e.preventDefault();
@@ -16,6 +16,27 @@ $(document).ready(function(){
          $('#stop').click(function(e) {
                   e.preventDefault();
                   sound.stop();
+                });
+
+      });
+
+
+});
+
+$(document).ready(function(){
+
+  // jQuery methods go here...
+    SC.stream('/tracks/693696028',function(sound){
+
+      $('#play').click(function(e) {
+           e.preventDefault();
+           sound.play();
+         });
+
+
+         $('#push').click(function(e) {
+                  e.preventDefault();
+                  sound.push();
                 });
 
       });
