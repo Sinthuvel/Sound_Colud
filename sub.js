@@ -7,15 +7,15 @@ $(document).ready(function(){
   // jQuery methods go here...
     SC.stream('/tracks/693696028',function(sound){
 
-      $('#start').click(function(e) {
+      $('#play').click(function(e) {
            e.preventDefault();
-           sound.start();
+           sound.play();
          });
 
 
-         $('#stop').click(function(e) {
+         $('#push').click(function(e) {
                   e.preventDefault();
-                  sound.stop();
+                  sound.push();
                 });
 
       });
