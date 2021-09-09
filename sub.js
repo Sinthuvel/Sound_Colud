@@ -13,9 +13,9 @@ $(document).ready(function(){
          });
 
 
-         $('#stop').click(function(e) {
+         $('#pause').click(function(e) {
                   e.preventDefault();
-                  sound.stop();
+                  sound.pause();
                 });
 
       });
