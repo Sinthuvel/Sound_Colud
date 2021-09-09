@@ -30,13 +30,13 @@ $(document).ready(function(){
 
       $('#start').click(function(e) {
            e.preventDefault();
-           sound.play();
+           sound.start();
          });
 
 
          $('#stop').click(function(e) {
                   e.preventDefault();
-                  sound.push();
+                  sound.stop();
                 });
 
       });
